@@ -23,7 +23,7 @@ The contents of the css folder should be as follows:
 * style.css
 * bootstrap.css
 
-Once the files have been unpacked into their respective locations, rename bootstrap.css to hamlog.css. Any files not copied over can be discarded.
+Once the files have been unpacked into their respective locations, rename bootstrap.css to style.css. Any files not copied over can be discarded.
 
 ## Installation
 ### Apache, PHP, and MySQL
@@ -65,5 +65,7 @@ ALTER TABLE `logbook`
 
 ## Using Hamlog
 Once the above installation requesites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
+### Contributing
+You are free to modify Hamlog in any way, shape, or form.
 ### Issues, Requests, or Complaints
-Feel free to email me, themattbook@gmail.com
+Feel free to email me, themattbook@gmail.com. I cannot guarantee a timely reply, as I have several projects on my table.

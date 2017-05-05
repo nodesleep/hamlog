@@ -11,10 +11,8 @@
 
     <title>Hamlog</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Stylesheets for this template -->
     <link href="../css/style.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="../css/hamlog.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Anonymous+Pro" rel="stylesheet">
 
@@ -29,28 +27,6 @@
   </head>
 
   <body onload="loadCount()">
-
-    <!--<nav class="navbar navbar-custom navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Hamlog</a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="#" data-toggle="modal" data-target="#entryModal">Add Entry</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div>
-      </div>
-    </nav>-->
 
     <div class="jumbotron hamlog-head text-center">
       <div class="container">

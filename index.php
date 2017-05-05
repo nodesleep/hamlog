@@ -26,15 +26,13 @@ $result = mysqli_query($connect, $query);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Start a logbook">
-    <meta name="author" content="GetBusy LLC. <support@getbusypro.com>">
+    <meta name="author" content="Matthew Sweet <themattbook@gmail.com>">
     <link rel="icon" href="img/favicon.ico">
 
     <title>Hamlog</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Stylesheets -->
     <link href="css/style.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/hamlog.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Anonymous+Pro" rel="stylesheet">
 
