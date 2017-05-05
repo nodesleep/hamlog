@@ -64,8 +64,8 @@ ALTER TABLE `logbook`
 ```
 
 ## Using Hamlog
-Once the above installation requesites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
+Once the above installation requisites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
 ### Contributing
-You are free to modify Hamlog in any way, shape, or form.
+You are free to modify Hamlog in any way, shape, or form. My desire is to keep Hamlog free and open to the Amateur Radio community, while continually publishing updates and improvements to the framework. If you wish to discuss this further, please send an email to the address below or look up KE0IMD on QRZ. 
 ### Issues, Requests, or Complaints
 Feel free to email me, themattbook@gmail.com. I cannot guarantee a timely reply, as I have several projects on my table.
