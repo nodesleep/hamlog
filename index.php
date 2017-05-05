@@ -71,7 +71,7 @@ $result = mysqli_query($connect, $query);
           </div>
           <div class="panel panel-default">
             <div class="panel-body">
-              <strong>Welcome, log.user.name</strong>
+              <strong>Welcome to Hamlog.</strong>
               <p>
                 <?php
 
