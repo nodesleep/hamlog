@@ -40,7 +40,7 @@ Now that all of the required Bootstrap files are in place, we're ready to get th
 Download [WAMP Server](http://www.wampserver.com/en/) | Download [MAMP](https://www.mamp.info/en/) | Refer to this [Digital Ocean Installation Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 After installation, the Hamlog folder will need to placed inside of the C:\wamp\www\ folder. | MAMP offers two different versions, you don't need the PRO version. After installation, the Hamlog folder will need to be placed inside of the /Applications/MAMP/htdocs folder. | Hamlog folder will need to be nested inside of the /var/www/html/ directory or whichever directory is specified as the DocumentRoot in Apache's configuration.
 
-### Setting up MySQL Database
+### Setting up MySQL Database (optional, see note)
 In order for Hamlog to function as intended, a database called "Hamlog" with a tabled called "logbook" must be created. Inside of the logbook table are the following:
 * id - int(11) AUTO_INCREMENT
 * callsign - varchar(6) utf8_general_ci
@@ -68,7 +68,7 @@ ALTER TABLE `logbook`
 ALTER TABLE `logbook`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 ```
-PHPMyAdmin is a great tool for managing MySQL Databases if you're not comfortable with the MySQL command line.
+PHPMyAdmin is a great tool for managing MySQL Databases if you're not comfortable with the MySQL command line. **NOTE:** Alternatively, you can import the included database file, located [here](https://github.com/themattbook/hamlog/blob/master/examples/hamlog.sql).
 
 ## Using Hamlog
 Once the above installation requisites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
