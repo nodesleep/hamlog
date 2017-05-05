@@ -1,5 +1,8 @@
 # Hamlog
-Hamlog is a simple PHP contact logging utility for ham radio operators. Think of it like a digital logbook.
+A PHP web-based logbook utility for Amateur Radio operators. Hamlog allows operators the ability to keep record of their contacts without the need for special programs or paper.
+
+![alt text](https://raw.githubusercontent.com/themattbook/hamlog/master/examples/hamlog.png)
+
 ## Installation Prerequisites
 Hamlog is a web application. As such, it requires a functional web server (Apache2, PHP, MySQL) in order to function properly. Apache works as the http server, PHP interacts with the MySQL database, and MySQL stores the operator's contacts. There is no operating system specific requirement, any web server that can utilize these three services will do fine.
 
@@ -29,8 +32,8 @@ Once the files have been unpacked into their respective locations, rename bootst
 ### Apache, PHP, and MySQL
 Now that all of the required Bootstrap files are in place, we're ready to get the server setup and ready to go. Unfortunately, I won't be able to walk you through a full server install, but I can guide you to some great resources for getting it done.
 
-**Windows Users** | **Mac Users** | **Ubuntu Users**
------------- | ------------- | ------------
+![Windows Users](http://www.fluxbytes.com/wp-content/uploads/2014/10/windows-logo.png) |![Mac Users](http://getmyle.com/wp-content/uploads/2015/09/Apple-Icon.png)|![Ubuntu Users](https://i.downloadatoz.com/download/icon2/d/b/a/d9e404950c6c5a598eea2b69bc4f4abd.jpg)
+-------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------
 Download [WAMP Server](http://www.wampserver.com/en/) | Download [MAMP](https://www.mamp.info/en/) | Refer to this [Digital Ocean Installation Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 After installation, the Hamlog folder will need to placed inside of the C:\wamp\www\ folder. | MAMP offers two different versions, you don't need the PRO version. After installation, the Hamlog folder will need to be placed inside of the /Applications/MAMP/htdocs folder. | Hamlog folder will need to be nested inside of the /var/www/html/ directory.
 
@@ -62,6 +65,7 @@ ALTER TABLE `logbook`
 ALTER TABLE `logbook`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 ```
+PHPMyAdmin is a great tool for managing MySQL Databases if you're not comfortable with the MySQL command line.
 
 ## Using Hamlog
 Once the above installation requisites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
