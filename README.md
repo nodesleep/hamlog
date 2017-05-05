@@ -58,6 +58,10 @@ CREATE TABLE `logbook` (
 ALTER TABLE `logbook`
   ADD PRIMARY KEY (`id`);
 ```
+```SQL
+ALTER TABLE `logbook`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+```
 
 ## Using Hamlog
 Once the above installation requesites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
