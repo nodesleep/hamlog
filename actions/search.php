@@ -39,7 +39,7 @@
         <div class="col-lg-3 col-md-3 col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12 hamlog-hd-2">
           <div class="panel panel-default">
             <div class="panel-body">
-              <strong>Welcome, $user.name</strong>
+              <strong>Welcome to Hamlog.</strong>
               <p id="outputLog"></p>
 
               <script>
