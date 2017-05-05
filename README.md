@@ -1,7 +1,7 @@
 # Hamlog
 A PHP web-based logbook utility for Amateur Radio operators. Hamlog allows operators the ability to keep record of their contacts without the need for special programs or paper.
 
-![alt text](https://raw.githubusercontent.com/themattbook/hamlog/master/examples/hamlog.png)
+![Hamlog Homepage](https://raw.githubusercontent.com/themattbook/hamlog/master/examples/hamlog.png)
 
 ## Installation Prerequisites
 Hamlog is a web application. As such, it requires a functional web server (Apache2, PHP, MySQL) in order to function properly. Apache works as the http server, PHP interacts with the MySQL database, and MySQL stores the operator's contacts. There is no operating system specific requirement, any web server that can utilize these three services will do fine.
@@ -12,6 +12,9 @@ The design of Hamlog relies on Bootstrap v3, an HTML/CSS/JS framework for design
 * Bootstrap v3 [can be downloaded here](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip)
 
 ### Bootstrap
+
+![Bootstrap v3](http://videotutorialspoint.com/wp-content/uploads/2016/04/Bootstrap-Tutorial.png)
+
 Installing Bootstrap is as easy as downloading the zip file and unzipping it. Copy the contents of the folders into the respective Hamlog folders. For example, the contents of the js folder in Bootstrap needs to be in the js folder in Hamlog. The fonts directory can be placed into the main Hamlog directory, but no Glyphicons are used at this time.
 
 Hamlog does not use minified CSS files or JS files at this time.
