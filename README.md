@@ -26,7 +26,7 @@ The contents of the js folder should be as follows:
 * utctime.js
 
 The contents of the css folder should be as follows:
-* style.css
+* hamlog.css
 * bootstrap.css
 
 Once the files have been unpacked into their respective locations, rename bootstrap.css to style.css. Any files not copied over can be discarded.
