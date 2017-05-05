@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Start a logbook">
     <meta name="author" content="GetBusy LLC. <support@getbusypro.com>">
-    <link rel="icon" href="../img/favicon.png">
+    <link rel="icon" href="../img/favicon.ico">
 
     <title>Hamlog</title>
 
@@ -54,7 +54,7 @@
 
     <div class="jumbotron hamlog-head text-center">
       <div class="container">
-        <h3>Hello. Insert fancy shit here.</h3>
+        <h3>Hello. Insert fancy stuff here.</h3>
       </div>
     </div>
 

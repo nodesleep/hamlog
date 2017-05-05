@@ -27,7 +27,7 @@ $result = mysqli_query($connect, $query);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Start a logbook">
     <meta name="author" content="GetBusy LLC. <support@getbusypro.com>">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.ico">
 
     <title>Hamlog</title>
 
@@ -52,7 +52,7 @@ $result = mysqli_query($connect, $query);
 
     <div class="jumbotron hamlog-head text-center">
       <div class="container">
-        <h3>Hello. Insert fancy shit here.</h3>
+        <h3>Hello. Insert fancy stuff here.</h3>
       </div>
     </div>
 
@@ -85,6 +85,22 @@ $result = mysqli_query($connect, $query);
                   $rowcount=mysqli_num_rows($records);
                   printf("There are currently <strong>%d</strong> contact(s) logged.\n",$rowcount);
                   }
+
+                ?>
+                <br \>
+                <?php
+
+                $sql = "SELECT id, callsign, date FROM logbook ORDER BY id DESC LIMIT 1";
+                $recent = $connect->query($sql);
+
+                if ($recent->num_rows > 0) {
+                    // output data of each row
+                    while($row = $recent->fetch_assoc()) {
+                      printf("Most recent entry was <strong>" . $row['callsign'] . "</strong> on <strong>" . $row['date'] . "</strong>");
+                    }
+                } else {
+                    echo "You haven't made any entries yet.";
+                }
 
                 ?>
               </p>
