@@ -54,6 +54,11 @@ CREATE TABLE `logbook` (
   `notes` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+```SQL
+ALTER TABLE `logbook`
+  ADD PRIMARY KEY (`id`);
+```
+
 ## Using Hamlog
 Once the above installation requesites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/.
 ### Issues, Requests, or Complaints
