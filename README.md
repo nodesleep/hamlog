@@ -29,7 +29,7 @@ The contents of the css folder should be as follows:
 Once the files have been unpacked into their respective locations, rename bootstrap.css to style.css. Any files not copied over can be discarded.
 
 ## Installation
-### Apache, PHP, and MySQL
+### Server-side: Apache, PHP, and MySQL
 Now that all of the required Bootstrap files are in place, we're ready to get the server setup and ready to go. Unfortunately, I won't be able to walk you through a full server install, but I can guide you to some great resources for getting it done.
 
 ![Windows Users](http://www.fluxbytes.com/wp-content/uploads/2014/10/windows-logo.png) |![Mac Users](http://getmyle.com/wp-content/uploads/2015/09/Apple-Icon.png)|![Ubuntu Users](https://i.downloadatoz.com/download/icon2/d/b/a/d9e404950c6c5a598eea2b69bc4f4abd.jpg)
@@ -37,7 +37,7 @@ Now that all of the required Bootstrap files are in place, we're ready to get th
 Download [WAMP Server](http://www.wampserver.com/en/) | Download [MAMP](https://www.mamp.info/en/) | Refer to this [Digital Ocean Installation Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 After installation, the Hamlog folder will need to placed inside of the C:\wamp\www\ folder. | MAMP offers two different versions, you don't need the PRO version. After installation, the Hamlog folder will need to be placed inside of the /Applications/MAMP/htdocs folder. | Hamlog folder will need to be nested inside of the /var/www/html/ directory.
 
-### Setting up MySQL
+### Setting up MySQL Database
 In order for Hamlog to function as intended, a database called "Hamlog" with a tabled called "logbook" must be created. Inside of the logbook table are the following:
 * id - int(11) AUTO_INCREMENT
 * callsign - varchar(6) utf8_general_ci
