@@ -11,7 +11,7 @@ The design of Hamlog relies on Bootstrap v3, an HTML/CSS/JS framework for design
 * Web Server with Apache, PHP, MySQL installed
 * Bootstrap v3 [can be downloaded here](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip)
 
-### Bootstrap
+## Bootstrap
 
 ![Bootstrap v3](http://videotutorialspoint.com/wp-content/uploads/2016/04/Bootstrap-Tutorial.png)
 
