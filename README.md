@@ -12,7 +12,6 @@ The design of Hamlog relies on Bootstrap v3, an HTML/CSS/JS framework for design
 * Bootstrap v3 [can be downloaded here](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip)
 
 ## Setting up Bootstrap
-![Bootstrap v3](https://img.clipartfest.com/6b18f339532f0e7bc1d0a609a2166857_bootstrap-framework-logo-bootstrap_390-180.png)
 
 Installing Bootstrap is as easy as downloading the zip file and unzipping it. Copy the contents of the folders into the respective Hamlog folders. For example, the contents of the js folder in Bootstrap needs to be in the js folder in Hamlog. The fonts directory can be placed into the main Hamlog directory, but no Glyphicons are used at this time.
 
