@@ -68,7 +68,9 @@ ALTER TABLE `logbook`
 ALTER TABLE `logbook`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 ```
-PHPMyAdmin is a great tool for managing MySQL Databases if you're not comfortable with the MySQL command line. **NOTE:** Alternatively, you can import the included database file, located [here](https://github.com/themattbook/hamlog/blob/master/examples/hamlog.sql).
+PHPMyAdmin is a great tool for managing MySQL Databases if you're not comfortable with the MySQL command line. 
+
+**NOTE:** Alternatively, you can import the included database file, located [here](https://github.com/themattbook/hamlog/blob/master/examples/hamlog.sql).
 
 ## Using Hamlog
 Once the above installation requisites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/. If you installed Hamlog on a personal website, you're probably savvy enough to figure out the URL.
