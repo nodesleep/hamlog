@@ -71,7 +71,7 @@ PHPMyAdmin is a great tool for managing MySQL Databases if you're not comfortabl
 **NOTE:** Alternatively, you can import the included database file, located [here](https://github.com/themattbook/hamlog/blob/master/examples/hamlog.sql).
 
 ## Using Hamlog
-Once the above installation requisites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/. If you installed Hamlog on a personal website, you're probably savvy enough to figure out the URL.
+Once the above installation requisites and installation steps have been taken, simply open your web browser of choice and navigate to http://localhost/hamlog/. If you installed Hamlog on a personal website, you're probably savvy enough to figure out the URL. To see a working demo, please visit [the hamlog sandbox](http://meetmattsweet.com/sandbox/hamlog/).
 ### Contributing
 You are free to modify Hamlog in any way, shape, or form. My desire is to keep Hamlog free and open to the Amateur Radio community, while continually publishing updates and improvements to the framework. If you wish to discuss this further, please send an email to the address below or look up KE0IMD on QRZ. 
 ### Issues, Requests, or Complaints
