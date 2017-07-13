@@ -39,8 +39,8 @@ $result = mysqli_query($connect, $query);
     <script src="https://use.fontawesome.com/8f4ddbac7d.js"></script>
 
     <!-- Core Javascript -->
-    <script src="js/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/collapse.js"></script>
     <script src="js/utctime.js"></script>
 
@@ -257,12 +257,6 @@ $result = mysqli_query($connect, $query);
         </div>
       </div>
     </div>
-
-
-      <!-- Core Javascript -->
-      <script src="js/bootstrap.js"></script>
-      <script src="js/jquery.js"></script>
-
 
   </body>
 
